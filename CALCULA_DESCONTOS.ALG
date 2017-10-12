@@ -2,7 +2,8 @@ Algoritmo "Calcula_Descontos"
 // Autor(a)    : Tiago Gomes
 // Data atual  : 12/10/2017
 Var
-quantidade,valor,desconto,valorTotal,nome : real
+quantidade,valor,desconto,valorTotal : real
+nome, algo : caracter
 Inicio
 escreval ("informe o valor da compra")
 leia (valor)
@@ -24,9 +25,9 @@ caso 20 ate 29292929
 Desconto <- Valor * 0.30
 ValorTotal <- (valor - desconto)*quantidade
 Outrocaso
-algo <- "Inválido"
+algo <- InvÃ¡lido
 Fimescolha
-Escreval ("valor do produto com desconto é € ", ValorTotal)
+Escreval ("valor do produto com desconto Ã© â‚¬ ", ValorTotal)
 
 Fimalgoritmo
 
